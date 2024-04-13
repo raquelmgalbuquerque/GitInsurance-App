@@ -1,2 +1,5 @@
 # GitInsurance-App
-Exercise 1 - Git and GitHub Workshop
+
+Git and GitHub Workshop - Exercise 1
+
+Exercise to practice basic git commands.
