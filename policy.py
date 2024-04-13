@@ -47,7 +47,8 @@ def options():
   print("------------------------------")
   print("-> Add policy (a)?")
   print("-> Remove policy (r)?")
-  print("-> List policies (l)?\n")
+  print("-> List policies (l)?")
+  print("-> Quit (q)?\n")
 
   answer = input("Answer: ").lower()
 
