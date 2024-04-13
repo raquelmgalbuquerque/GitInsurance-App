@@ -19,4 +19,18 @@ def add_policy():
     policies.append(new_policy)
     json.dump(policies, f)
 
-add_policy()
+def remove_policy():
+  print("Remove policy")
+  policy_id = int(input("Policy ID? "))
+
+  for p in policies:
+    if p["policyId"] == policy_id:
+      policies.remove(p)
+      break
+  
+  # Update JSON file by removing policy
+  with open(filename, 'w') as f:
+    json.dump(policies, f)
+
+# add_policy()
+remove_policy()
