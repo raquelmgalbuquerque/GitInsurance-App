@@ -32,5 +32,10 @@ def remove_policy():
   with open(filename, 'w') as f:
     json.dump(policies, f)
 
+def list_policies():
+  print("List policies")
+  print(json.dumps(policies, indent=2))
+
 # add_policy()
-remove_policy()
+# remove_policy()
+list_policies()
