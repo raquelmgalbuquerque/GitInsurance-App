@@ -1,4 +1,35 @@
 [
-  { "policyId": 0, "clientName": "Zacarias Oliveira", "insuranceType": "auto" },
-  { "policyId": 1, "clientName": "John Smith", "insuranceType": "auto" }
+  {
+    "policyId": 0,
+    "clientName": "Zacarias Oliveira",
+    "insuranceType": "auto",
+    "clientHasClaims": false,
+    "claims": []
+  },
+  {
+    "policyId": 1,
+    "clientName": "John Smith",
+    "insuranceType": "auto",
+    "clientHasClaims": true,
+    "claims": [
+      {
+        "timestamp": "20240414",
+        "claim": "Car collision",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "policyId": 2,
+    "clientName": "Zé Manel",
+    "insuranceType": "auto",
+    "clientHasClaims": true,
+    "claims": [
+      {
+        "timestamp": "20240309",
+        "claim": "Car damaged by flood",
+        "status": "closed"
+      }
+    ]
+  }
 ]

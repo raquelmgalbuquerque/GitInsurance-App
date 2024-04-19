@@ -16,7 +16,7 @@ def add_policy():
 
   # Update JSON file by adding new policy
   with open(filename, 'w') as f:
-    new_policy = {"policyId": len(policies), "clientName": client_name, "insuranceType": insurance_type}
+    new_policy = {"policyId": len(policies), "clientName": client_name, "insuranceType": insurance_type, "clientHasClaims": False, "claims":[]}
     policies.append(new_policy)
     json.dump(policies, f)
 
