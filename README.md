@@ -1,6 +1,8 @@
 # GitInsurance-App
 
-Git and GitHub Workshop - Assignment 1
+Git and GitHub Workshop - Assignments
+
+## Assignment 1
 
 Exercise to practice basic git commands from [Roberto's repo](https://github.com/RoberVega/lp-git-basics/tree/main/assignments/assignment_1).
 
@@ -15,3 +17,7 @@ the user will be asked if he/she wants to add, remove or list policies. The firs
 - add_policy(): asks the user for the name of the client and type of insurance (auto/house). Based on those inputs, a new dictionary is created and added to the database (policies.json).
 - remove_policy(): asks the user for the policy ID and removes the corresponding dictionary from the database.
 - list_policies(): prints in the terminal all the policies available in the database.
+
+## Assignment 2
+
+Exercise to practice branching and merging. You can find the instructions in [Roberto's repo](https://github.com/RoberVega/lp-git-basics/tree/main/assignments/assignment_2).
